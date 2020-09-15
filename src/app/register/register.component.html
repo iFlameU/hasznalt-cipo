@@ -1,1 +1,14 @@
-<p>register works!</p>
+<form [formGroup]="registrationForm">
+
+  <label for="user">Felhasználó név</label>
+  <input id="user" formControlName="user" type="text">
+
+  <label for="password">Jelszó</label>
+  <input id="password" formControlName="password" type="password">
+
+  <label for="password-again">Jelszó újra</label>
+  <input id="password-again" formControlName="passwordAgain" type="password">
+
+  <button type="submit">Registráció</button>
+
+</form>
