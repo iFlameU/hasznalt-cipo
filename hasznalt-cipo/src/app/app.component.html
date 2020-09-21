@@ -1,7 +1,7 @@
 <div class="container">
   <h1>Használt cipő</h1>
-  <div *ngFor="let shoe of shoes">
-    <img class="shoe" alt="" [src]="shoe">
+  <div *ngFor="let shoe of this.shoesService.shoes">
+    <img class="shoe" alt="" [src]="shoe.imageUrl">
   </div>
   <div class="shoe shoe-placeholder"></div>
   <div class="shoe shoe-placeholder"></div>

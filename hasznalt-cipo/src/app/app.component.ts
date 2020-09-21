@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {ShoesService} from "./services/shoes.service";
 
 @Component({
   selector: 'app-root',
@@ -6,17 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  shoes: string[] = [
-    'assets/images/basic-shue.png',
-    'assets/images/basic-shue.png',
-    'assets/images/basic-shue.png',
-    'assets/images/basic-shue.png',
-    'assets/images/basic-shue.png',
-    'assets/images/basic-shue.png',
-    'assets/images/basic-shue.png',
-    'assets/images/basic-shue.png',
-    'assets/images/basic-shue.png',
-    'assets/images/basic-shue.png',
-    'assets/images/basic-shue.png'
-  ]
+  constructor(
+    public shoesService: ShoesService
+  ) {}
 }
