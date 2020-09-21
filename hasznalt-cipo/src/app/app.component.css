@@ -1,4 +1,30 @@
+h1 {
+  width: 100%;
+}
+
 .shoe {
-  width: 400px;
-  height: 300px;
+  width: 282px;
+  height: 206px;
+  border: 1px solid black;
+  margin: 10px;
+  transition: width 200ms, height 200ms, margin 200ms;
+}
+
+.shoe:hover {
+  width: 292px;
+  height: 216px;
+  margin: 5px;
+}
+
+.shoe-placeholder {
+  height: 0;
+  border: 0;
+}
+
+.container {
+  min-width: 304px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }

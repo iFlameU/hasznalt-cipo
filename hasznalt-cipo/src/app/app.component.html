@@ -1,2 +1,10 @@
-<h1>Használt cipő</h1>
-<img *ngFor="let shoe of shoes" class="shoe" alt="" [src]="shoe">
+<div class="container">
+  <h1>Használt cipő</h1>
+  <div *ngFor="let shoe of shoes">
+    <img class="shoe" alt="" [src]="shoe">
+  </div>
+  <div class="shoe shoe-placeholder"></div>
+  <div class="shoe shoe-placeholder"></div>
+  <div class="shoe shoe-placeholder"></div>
+  <div class="shoe shoe-placeholder"></div>
+</div>
