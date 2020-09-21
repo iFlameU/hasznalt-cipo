@@ -6,4 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  shoes: string[] = [
+    'assets/images/basic-shue.png',
+    'assets/images/basic-shue.png',
+    'assets/images/basic-shue.png',
+    'assets/images/basic-shue.png',
+    'assets/images/basic-shue.png',
+    'assets/images/basic-shue.png',
+    'assets/images/basic-shue.png',
+    'assets/images/basic-shue.png',
+    'assets/images/basic-shue.png',
+    'assets/images/basic-shue.png',
+    'assets/images/basic-shue.png'
+  ]
 }
